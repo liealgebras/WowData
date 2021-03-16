@@ -1,59 +1,245 @@
 {
     "data": {
         "__schema": {
-            "queryType": {
-                "fields": [
-                    {
-                        "name": "characterData",
-                        "type": {
-                            "kind": "OBJECT",
-                            "ofType": null
-                        }
-                    },
-                    {
-                        "name": "gameData",
-                        "type": {
-                            "kind": "OBJECT",
-                            "ofType": null
-                        }
-                    },
-                    {
-                        "name": "guildData",
-                        "type": {
-                            "kind": "OBJECT",
-                            "ofType": null
-                        }
-                    },
-                    {
-                        "name": "progressRaceData",
-                        "type": {
-                            "kind": "OBJECT",
-                            "ofType": null
-                        }
-                    },
-                    {
-                        "name": "rateLimitData",
-                        "type": {
-                            "kind": "OBJECT",
-                            "ofType": null
-                        }
-                    },
-                    {
-                        "name": "reportData",
-                        "type": {
-                            "kind": "OBJECT",
-                            "ofType": null
-                        }
-                    },
-                    {
-                        "name": "worldData",
-                        "type": {
-                            "kind": "OBJECT",
-                            "ofType": null
-                        }
-                    }
-                ]
-            }
+            "types": [
+                {
+                    "name": "Query"
+                },
+                {
+                    "name": "CharacterData"
+                },
+                {
+                    "name": "Int"
+                },
+                {
+                    "name": "String"
+                },
+                {
+                    "name": "Character"
+                },
+                {
+                    "name": "Boolean"
+                },
+                {
+                    "name": "RankingCompareType"
+                },
+                {
+                    "name": "CharacterRankingMetricType"
+                },
+                {
+                    "name": "RoleType"
+                },
+                {
+                    "name": "RankingTimeframeType"
+                },
+                {
+                    "name": "JSON"
+                },
+                {
+                    "name": "GameFaction"
+                },
+                {
+                    "name": "Guild"
+                },
+                {
+                    "name": "GuildAttendancePagination"
+                },
+                {
+                    "name": "GuildAttendance"
+                },
+                {
+                    "name": "PlayerAttendance"
+                },
+                {
+                    "name": "Float"
+                },
+                {
+                    "name": "Zone"
+                },
+                {
+                    "name": "Bracket"
+                },
+                {
+                    "name": "Difficulty"
+                },
+                {
+                    "name": "Encounter"
+                },
+                {
+                    "name": "FightRankingMetricType"
+                },
+                {
+                    "name": "Expansion"
+                },
+                {
+                    "name": "Partition"
+                },
+                {
+                    "name": "Server"
+                },
+                {
+                    "name": "Region"
+                },
+                {
+                    "name": "Subregion"
+                },
+                {
+                    "name": "ServerPagination"
+                },
+                {
+                    "name": "GuildPagination"
+                },
+                {
+                    "name": "GuildTag"
+                },
+                {
+                    "name": "CharacterPagination"
+                },
+                {
+                    "name": "ReportPagination"
+                },
+                {
+                    "name": "Report"
+                },
+                {
+                    "name": "EventDataType"
+                },
+                {
+                    "name": "HostilityType"
+                },
+                {
+                    "name": "KillType"
+                },
+                {
+                    "name": "ReportEventPaginator"
+                },
+                {
+                    "name": "ReportFight"
+                },
+                {
+                    "name": "ReportFightNPC"
+                },
+                {
+                    "name": "GraphDataType"
+                },
+                {
+                    "name": "ViewType"
+                },
+                {
+                    "name": "User"
+                },
+                {
+                    "name": "ReportMasterData"
+                },
+                {
+                    "name": "ReportAbility"
+                },
+                {
+                    "name": "ReportActor"
+                },
+                {
+                    "name": "ReportRankingMetricType"
+                },
+                {
+                    "name": "TableDataType"
+                },
+                {
+                    "name": "GameData"
+                },
+                {
+                    "name": "GameAbilityPagination"
+                },
+                {
+                    "name": "GameAbility"
+                },
+                {
+                    "name": "GameAchievement"
+                },
+                {
+                    "name": "GameAchievementPagination"
+                },
+                {
+                    "name": "GameAffix"
+                },
+                {
+                    "name": "GameClass"
+                },
+                {
+                    "name": "Spec"
+                },
+                {
+                    "name": "GameEnchant"
+                },
+                {
+                    "name": "GameEnchantPagination"
+                },
+                {
+                    "name": "GameMap"
+                },
+                {
+                    "name": "GameMapPagination"
+                },
+                {
+                    "name": "GameNPC"
+                },
+                {
+                    "name": "GameNPCPagination"
+                },
+                {
+                    "name": "GameZone"
+                },
+                {
+                    "name": "GameZonePagination"
+                },
+                {
+                    "name": "GuildData"
+                },
+                {
+                    "name": "ProgressRaceData"
+                },
+                {
+                    "name": "RateLimitData"
+                },
+                {
+                    "name": "ReportData"
+                },
+                {
+                    "name": "WorldData"
+                },
+                {
+                    "name": "ID"
+                },
+                {
+                    "name": "__Schema"
+                },
+                {
+                    "name": "__Type"
+                },
+                {
+                    "name": "__TypeKind"
+                },
+                {
+                    "name": "__Field"
+                },
+                {
+                    "name": "__InputValue"
+                },
+                {
+                    "name": "__EnumValue"
+                },
+                {
+                    "name": "__Directive"
+                },
+                {
+                    "name": "__DirectiveLocation"
+                },
+                {
+                    "name": "GameItem"
+                },
+                {
+                    "name": "GameItemSet"
+                }
+            ]
         }
     }
 }
