@@ -4,25 +4,53 @@
             "queryType": {
                 "fields": [
                     {
-                        "name": "characterData"
+                        "name": "characterData",
+                        "type": {
+                            "kind": "OBJECT",
+                            "ofType": null
+                        }
                     },
                     {
-                        "name": "gameData"
+                        "name": "gameData",
+                        "type": {
+                            "kind": "OBJECT",
+                            "ofType": null
+                        }
                     },
                     {
-                        "name": "guildData"
+                        "name": "guildData",
+                        "type": {
+                            "kind": "OBJECT",
+                            "ofType": null
+                        }
                     },
                     {
-                        "name": "progressRaceData"
+                        "name": "progressRaceData",
+                        "type": {
+                            "kind": "OBJECT",
+                            "ofType": null
+                        }
                     },
                     {
-                        "name": "rateLimitData"
+                        "name": "rateLimitData",
+                        "type": {
+                            "kind": "OBJECT",
+                            "ofType": null
+                        }
                     },
                     {
-                        "name": "reportData"
+                        "name": "reportData",
+                        "type": {
+                            "kind": "OBJECT",
+                            "ofType": null
+                        }
                     },
                     {
-                        "name": "worldData"
+                        "name": "worldData",
+                        "type": {
+                            "kind": "OBJECT",
+                            "ofType": null
+                        }
                     }
                 ]
             }
