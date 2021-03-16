@@ -1,0 +1,31 @@
+{
+    "data": {
+        "__schema": {
+            "queryType": {
+                "fields": [
+                    {
+                        "name": "characterData"
+                    },
+                    {
+                        "name": "gameData"
+                    },
+                    {
+                        "name": "guildData"
+                    },
+                    {
+                        "name": "progressRaceData"
+                    },
+                    {
+                        "name": "rateLimitData"
+                    },
+                    {
+                        "name": "reportData"
+                    },
+                    {
+                        "name": "worldData"
+                    }
+                ]
+            }
+        }
+    }
+}
